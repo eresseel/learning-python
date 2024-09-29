@@ -1,0 +1,17 @@
+[INFO   ] Logger: Record log in /home/kerb3rosz/Documents/Munka/darkdevops/codebase/programozas/python/gui/szamologep/config/logs/kivy_20-05-23_26.txt
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/usr/lib/python3/dist-packages/kivy/__init__.py"
+[INFO   ] Python: v3.8.3rc1 (default, Apr 30 2020, 07:33:30) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/usr/bin/python"
+[ERROR  ] Clock: Unable to import kivy._clock. Have you perhaps forgotten to compile kivy? Kivy contains Cython code which needs to be compiled. A missing kivy._clock often indicates the Cython code has not been compiled. Please follow the installation instructions and make sure to compile Kivy
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "calculator.py", line 5, in <module>
+[WARNING] stderr:     from kivy.app import App
+[WARNING] stderr:   File "/usr/lib/python3/dist-packages/kivy/app.py", line 319, in <module>
+[WARNING] stderr:     from kivy.base import runTouchApp, stopTouchApp
+[WARNING] stderr:   File "/usr/lib/python3/dist-packages/kivy/base.py", line 26, in <module>
+[WARNING] stderr:     from kivy.clock import Clock
+[WARNING] stderr:   File "/usr/lib/python3/dist-packages/kivy/clock.py", line 363, in <module>
+[WARNING] stderr:     from kivy._clock import CyClockBase, ClockEvent, FreeClockEvent, \
+[WARNING] stderr: ModuleNotFoundError: No module named 'kivy._clock'

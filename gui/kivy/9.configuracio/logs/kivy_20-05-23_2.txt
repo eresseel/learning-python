@@ -1,0 +1,67 @@
+[INFO   ] Logger: Record log in /home/kerb3rosz/Documents/Munka/darkdevops/codebase/programozas/python/gui/9.configuracio/logs/kivy_20-05-23_2.txt
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/usr/local/lib/python3.7/dist-packages/kivy/__init__.py"
+[INFO   ] Python: v3.7.7 (default, Apr  1 2020, 13:48:52) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/usr/bin/python"
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] ImageLoaderFFPy: Using ffpyplayer 4.3.1
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer, img_gif 
+[INFO   ] Window: Provider: sdl2(['window_egl_rpi'] ignored)
+[INFO   ] GL: Using the "OpenGL" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'3.0 Mesa 19.3.3'>
+[INFO   ] GL: OpenGL vendor <b'Intel Open Source Technology Center'>
+[INFO   ] GL: OpenGL renderer <b'Mesa DRI Intel(R) HD Graphics 630 (Kaby Lake GT2) '>
+[INFO   ] GL: OpenGL parsed version: 3, 0
+[INFO   ] GL: Shading version <b'1.30'>
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <32>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/lang/builder.py", line 700, in _apply_rule
+[WARNING] stderr:     setattr(widget_set, key, value)
+[WARNING] stderr:   File "kivy/weakproxy.pyx", line 35, in kivy.weakproxy.WeakProxy.__setattr__
+[WARNING] stderr:   File "kivy/properties.pyx", line 497, in kivy.properties.Property.__set__
+[WARNING] stderr:   File "kivy/properties.pyx", line 541, in kivy.properties.Property.set
+[WARNING] stderr:   File "kivy/properties.pyx", line 532, in kivy.properties.Property.set
+[WARNING] stderr:   File "kivy/properties.pyx", line 1252, in kivy.properties.OptionProperty.check
+[WARNING] stderr: ValueError: Slider.orientation is set to an invalid option 'vertikal'. Must be one of: ['vertical', 'horizontal']
+[WARNING] stderr: 
+[WARNING] stderr: During handling of the above exception, another exception occurred:
+[WARNING] stderr: 
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "9.csuszka.py", line 17, in <module>
+[WARNING] stderr:     TesztApp().run()
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/app.py", line 829, in run
+[WARNING] stderr:     root = self.build()
+[WARNING] stderr:   File "9.csuszka.py", line 15, in build
+[WARNING] stderr:     return AlapWidget()
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/uix/floatlayout.py", line 65, in __init__
+[WARNING] stderr:     super(FloatLayout, self).__init__(**kwargs)
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/uix/layout.py", line 76, in __init__
+[WARNING] stderr:     super(Layout, self).__init__(**kwargs)
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/uix/widget.py", line 361, in __init__
+[WARNING] stderr:     rule_children=rule_children)
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/uix/widget.py", line 469, in apply_class_lang_rules
+[WARNING] stderr:     rule_children=rule_children)
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/lang/builder.py", line 538, in apply
+[WARNING] stderr:     rule_children=rule_children)
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/lang/builder.py", line 707, in _apply_rule
+[WARNING] stderr:     e), cause=tb)
+[WARNING] stderr: kivy.lang.builder.BuilderException: Parser: File "/home/kerb3rosz/Documents/Munka/darkdevops/codebase/programozas/python/gui/9.configuracio/csuszka.kv", line 3:
+[WARNING] stderr: ...
+[WARNING] stderr:       1:<AlapWidget>:
+[WARNING] stderr:       2:    Slider:
+[WARNING] stderr: >>    3:        orientation: "vertikal"
+[WARNING] stderr: ...
+[WARNING] stderr: ValueError: Slider.orientation is set to an invalid option 'vertikal'. Must be one of: ['vertical', 'horizontal']
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/lang/builder.py", line 700, in _apply_rule
+[WARNING] stderr:     setattr(widget_set, key, value)
+[WARNING] stderr:   File "kivy/weakproxy.pyx", line 35, in kivy.weakproxy.WeakProxy.__setattr__
+[WARNING] stderr:   File "kivy/properties.pyx", line 497, in kivy.properties.Property.__set__
+[WARNING] stderr:   File "kivy/properties.pyx", line 541, in kivy.properties.Property.set
+[WARNING] stderr:   File "kivy/properties.pyx", line 532, in kivy.properties.Property.set
+[WARNING] stderr:   File "kivy/properties.pyx", line 1252, in kivy.properties.OptionProperty.check
+[WARNING] stderr: 

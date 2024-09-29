@@ -1,0 +1,23 @@
+[INFO   ] Logger: Record log in /home/kerb3rosz/Documents/Munka/darkdevops/codebase/programozas/python/gui/szamologep/config/logs/kivy_20-05-23_1.txt
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/usr/local/lib/python3.7/dist-packages/kivy/__init__.py"
+[INFO   ] Python: v3.7.7 (default, Apr  1 2020, 13:48:52) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/usr/bin/python"
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] ImageLoaderFFPy: Using ffpyplayer 4.3.1
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer, img_gif 
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "calculator.py", line 8, in <module>
+[WARNING] stderr:     Builder.load_file('./config/calculator.kv')
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/lang/builder.py", line 301, in load_file
+[WARNING] stderr:     return self.load_string(data, **kwargs)
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/lang/builder.py", line 368, in load_string
+[WARNING] stderr:     parser = Parser(content=string, filename=fn)
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/lang/parser.py", line 401, in __init__
+[WARNING] stderr:     self.parse(content)
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/lang/parser.py", line 510, in parse
+[WARNING] stderr:     objects, remaining_lines = self.parse_level(0, lines)
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/lang/parser.py", line 673, in parse_level
+[WARNING] stderr:     if current_property[:3] == 'on_':
+[WARNING] stderr: TypeError: 'NoneType' object is not subscriptable

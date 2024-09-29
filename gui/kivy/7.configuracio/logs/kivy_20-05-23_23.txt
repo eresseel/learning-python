@@ -1,0 +1,13 @@
+[INFO   ] Logger: Record log in /home/kerb3rosz/Documents/Munka/darkdevops/codebase/programozas/python/gui/7.configuracio/logs/kivy_20-05-23_23.txt
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/usr/local/lib/python3.7/dist-packages/kivy/__init__.py"
+[INFO   ] Python: v3.7.7 (default, Apr  1 2020, 13:48:52) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/usr/bin/python"
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] ImageLoaderFFPy: Using ffpyplayer 4.3.1
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer, img_gif 
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "8.kvKodBetoltese.py", line 8, in <module>
+[WARNING] stderr:     Builder.load_string(kv_string)
+[WARNING] stderr: NameError: name 'kv_string' is not defined

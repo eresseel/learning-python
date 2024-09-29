@@ -1,0 +1,67 @@
+[INFO   ] Logger: Record log in /home/kerb3rosz/Documents/Munka/darkdevops/codebase/programozas/python/gui/12.configuracio/logs/kivy_20-05-23_4.txt
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/usr/local/lib/python3.7/dist-packages/kivy/__init__.py"
+[INFO   ] Python: v3.7.7 (default, Apr  1 2020, 13:48:52) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/usr/bin/python"
+[INFO   ] Logger: Purge log fired. Analysing...
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] ImageLoaderFFPy: Using ffpyplayer 4.3.1
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer, img_gif 
+[INFO   ] Window: Provider: sdl2(['window_egl_rpi'] ignored)
+[INFO   ] GL: Using the "OpenGL" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'3.0 Mesa 19.3.3'>
+[INFO   ] GL: OpenGL vendor <b'Intel Open Source Technology Center'>
+[INFO   ] GL: OpenGL renderer <b'Mesa DRI Intel(R) HD Graphics 630 (Kaby Lake GT2) '>
+[INFO   ] GL: OpenGL parsed version: 3, 0
+[INFO   ] GL: Shading version <b'1.30'>
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <32>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] Text: Provider: sdl2
+[INFO   ] ProbeSysfs: device match: /dev/input/event7
+[INFO   ] MTD: Read event from </dev/input/event7>
+[INFO   ] Base: Start application main loop
+[INFO   ] GL: NPOT texture support is available
+[WARNING] MTD: Unable to open device "/dev/input/event7". Please ensure you have the appropriate permissions.
+[INFO   ] Base: Leaving application in progress...
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "12.radioGomb.py", line 17, in <module>
+[WARNING] stderr:     TesztApp().run()
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/app.py", line 855, in run
+[WARNING] stderr:     runTouchApp()
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/base.py", line 504, in runTouchApp
+[WARNING] stderr:     EventLoop.window.mainloop()
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/core/window/window_sdl2.py", line 747, in mainloop
+[WARNING] stderr:     self._mainloop()
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/core/window/window_sdl2.py", line 479, in _mainloop
+[WARNING] stderr:     EventLoop.idle()
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/base.py", line 342, in idle
+[WARNING] stderr:     self.dispatch_input()
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/base.py", line 327, in dispatch_input
+[WARNING] stderr:     post_dispatch_input(*pop(0))
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/base.py", line 233, in post_dispatch_input
+[WARNING] stderr:     listener.dispatch('on_motion', etype, me)
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/core/window/__init__.py", line 1402, in on_motion
+[WARNING] stderr:     self.dispatch('on_touch_down', me)
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/core/window/__init__.py", line 1418, in on_touch_down
+[WARNING] stderr:     if w.dispatch('on_touch_down', touch):
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/uix/widget.py", line 549, in on_touch_down
+[WARNING] stderr:     if child.dispatch('on_touch_down', touch):
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/uix/behaviors/button.py", line 151, in on_touch_down
+[WARNING] stderr:     self.dispatch('on_press')
+[WARNING] stderr:   File "kivy/_event.pyx", line 703, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1214, in kivy._event.EventObservers.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1098, in kivy._event.EventObservers._dispatch
+[WARNING] stderr:   File "/usr/local/lib/python3.7/dist-packages/kivy/lang/builder.py", line 64, in custom_callback
+[WARNING] stderr:     exec(__kvlang__.co_value, idmap)
+[WARNING] stderr:   File "/home/kerb3rosz/Documents/Munka/darkdevops/codebase/programozas/python/gui/12.configuracio/radioGomb.kv", line 10, in <module>
+[WARNING] stderr:     on_press: print(Ferfi.text)
+[WARNING] stderr: NameError: name 'Ferfi' is not defined

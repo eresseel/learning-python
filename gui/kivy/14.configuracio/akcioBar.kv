@@ -1,0 +1,25 @@
+<AlapWidget>:
+    ActionBar:
+        pos_hint: {"top":1}
+        ActionView:
+            ActionPrevious:
+                title: "go back"
+            ActionCheck:
+                active: True
+            ActionToggleButton:
+                text: "Toggle1"
+                state: "down"
+                group: "test"
+            ActionSeparator:
+            ActionToggleButton:
+                text: "Toggle2"
+                state: "normal"
+                group: "test"
+            ActionSeparator:
+            ActionButton:
+                text: "Button 1"
+                on_press: print("button 1 pressed")
+            ActionSeparator:
+            ActionButton:
+                text: "Button 2"
+                on_release: print("button 2 released")

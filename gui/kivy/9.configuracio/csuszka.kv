@@ -1,0 +1,32 @@
+<AlapWidget>:
+    Slider:
+        id: Vslider
+        orientation: "vertical"
+        min: 0
+        max: 30
+        size_hint: 0.2, 0.5
+        pos_hint: {"center_x":0.1}
+        step: 1
+        value: 0
+    Label:
+        text: str(int(Vslider.value))
+        size_hint: 0.1, 0.1
+        pos_hint: {"center_x": 0.2, "y":0.2}
+        font_size: 60
+        color: 0.7, 0.32, 0.2, 1
+
+    Slider:
+        id: Hslider
+        orientation: "horizontal"
+        min: -100
+        max: 100
+        size_hint: 0.5, 0.2
+        pos_hint: {"center_y":0.9}
+        step: 10
+        value: 20
+    Label:
+        text: str(int(Hslider.value))
+        size_hint: 0.1, 0.1
+        pos_hint: {"x": 0.2, "y":0.7}
+        font_size: 60
+        color: 0.7, 0.32, 0.2, 1

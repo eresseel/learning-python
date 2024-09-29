@@ -1,0 +1,8 @@
+<AlapWidget>:
+    Spinner:
+        text: "Valassz csajt"
+        size_hint: 0.2, 0.2
+        pos_hint: {"center_x":0.25, "y":0.1}
+        # values: "Eniko", "Rebeka", "Eva", "Viktoria"
+        values: root.nevek
+        on_text: print("Ma " + self.text + "t viszed randira")
